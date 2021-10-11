@@ -1,0 +1,5 @@
+default: --no-source --color --format pretty
+json: -f json -o reports/cucumber.json
+
+# Relatório
+report: -f pretty -f html -o reports/report.html
